@@ -1,0 +1,65 @@
+html {
+    font-size: 16px;
+}
+
+
+.nav-bar {
+    /*background: black;*/
+    overflow: hidden;
+}
+
+.nav-bar a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    margin-top: -2.5rem;
+}
+
+#landing-explore {
+    margin-left: 10rem;
+    font-size: 4rem;
+    margin-bottom: -3rem;
+}
+
+#landing-share {
+    margin-left: 13rem;
+    font-size: 4rem;
+    margin-bottom: -3rem;
+}
+
+#landing-inspire {
+    margin-left: 11.5rem;
+    font-size: 4rem;
+    margin-bottom:1rem;
+}
+
+#landing-blurb {
+    margin-left: 10.5rem;
+    inline-size: 20rem;
+}
+
+
+.landing-pictures {
+    display: grid;
+    grid-template-columns: repeat(3,.3fr);
+    grid-template-rows: repeat(1,15vw);
+    grid-gap: 1rem;
+}
+
+.landing-pictures > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+

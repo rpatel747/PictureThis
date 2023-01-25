@@ -1,0 +1,38 @@
+.mainPicture {
+    display: block;
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.informationSection {
+    background-color: #232323;
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+}
+
+.movieInformation {
+    margin-left: 2rem;
+}
+
+.movieTitle {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.movieInformation:nth-child(2) {
+    /* Wrap the text to 200px*/
+    inline-size: 400px;
+}
+
+.coverImage {
+    width: 15%;
+    height: 85%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}

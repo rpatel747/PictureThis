@@ -1,0 +1,46 @@
+.navBar {
+    display: flex;
+    background-color: #141414;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
+.navLinks {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+
+.pictureThis {
+    margin-top: 0.75rem;
+    margin-left: 2rem;
+    list-style-type: none;
+    background-image: linear-gradient(180deg, #259AE4 63.02%, #2676E4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.link:hover {
+    background-image: linear-gradient(180deg, #259AE4 63.02%, #2676E4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.search {
+    /*margin: top left/right*/
+    list-style-type: none;
+    margin-left: auto;
+    margin-top: 1.75rem;
+}
+
+
+.textBox {
+    width: 500px;
+}

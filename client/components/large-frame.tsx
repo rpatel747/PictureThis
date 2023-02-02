@@ -1,5 +1,4 @@
 import styles from '../styles/large-frame.module.css'
-import PropTypes from 'prop-types';
 
 export default function LargeFrame({wallpaper,coverImage,description}: {wallpaper:string, coverImage:string, description:string}) {
 
